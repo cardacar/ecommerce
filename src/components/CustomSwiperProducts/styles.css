@@ -1,0 +1,45 @@
+
+.mySwiperItems {
+    height: 500px;
+}
+
+.mySwiperItems .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+ .mySwiperItems .imgIcon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mySwiperItems .swiper-pagination {
+    bottom: -6px;
+  }
+  
+  .mySwiperItems .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    opacity: 1;
+    background: #fff;
+    border: 3px solid #8a939a;
+    margin-top: 20px;
+  }
+  
+  .mySwiperItems .swiper-pagination-bullet-active {
+    background: #fff;
+    border: 3px solid #742be2;
+  }
